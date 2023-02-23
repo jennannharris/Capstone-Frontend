@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(248, 244, 244);
+  color: rgb(238, 67, 102);
+
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#fluid {
+  margin-left: 3px;
+}
+
+#menu {
+  border: 2px solid black;
+  background-color: lightgrey;
+  margin-right: 4px;
+  width: inherit;
+  padding: 10px;
+  margin-left: 15px;
+  margin-bottom: 100px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#signUpLog {
+  margin-top: 40px;
+  font-size: larger;
+  margin-left: 10px;
+}
+
+#pleaCenter {
+  text-align: center;
+}
+
+#heading {
+  /* text-align: center; */
+  font-size: 50px;
+  margin-bottom: 100px;
+  font-weight: bolder;
+}
+
+#pleaText {
+  color: black;
+  font-size: large;
+}
+
+#submit {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+#text {
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 50px;
+  margin-left: 10px;
+}
+
+#textBox {
+  text-align: center;
+  margin-bottom: 50px;
+  height: 200px;
+  width: 350px;
+}
+
+#sadDog {
+  font-size: xx-large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 50px;
+  margin-left: 10px;
+}
+
+#happyDog {
+  font-size: xx-large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 50px;
+  margin-left: 10px;
+}
