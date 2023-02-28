@@ -2,20 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const Home = () => {
-  const [animalsInState, setAnimalsInState] = useState([
-   
-  ]);
-
-  
-  useEffect(() => {
-    const makeAPICall = async () => {
-      const animalsResponse = await fetch(`http://localhost:3001/posts`);
-      const animalsData = await animalsResponse.json();
-      console.log(animalsData);
-      setAnimalsInState(animalsData.posts);
-    };
-    makeAPICall();
-  }, []);
+  const [animalsInState, setAnimalsInState] = useState([]);
 
   const [loggedIn, setLoggedIn] = useState(false);
 
@@ -33,8 +20,52 @@ const Home = () => {
   return (
     <div>
       <h1>Home</h1>
+      <div className="row" id="row">
+        <div className="row"></div>
+        <div className="col-3">
+          <img src="images/dog4.jpg" className="img-fluid" />
+        </div>
+        <div className="col-3">
+          <img src="images/dog1.jpg" className="img-fluid" />
+        </div>
+        <div className="col-3">
+          <img src="images/dog2.jpg" className="img-fluid" />
+        </div>
+        <div className="col-3">
+          <img src="images/dog3.jpg" className="img-fluid" />
+        </div>
+        <div className="row"></div>
+      </div>
+      <div class="row">
+        <div>
+          <div class="col-6" id="signUpLog">
+            Sign Up to Join Our Community
+          </div>
+
+          <div class="row col-2" id="submit">
+            <a href="signUp.html">
+              <button type="submit" id="button">
+                Submit
+              </button>
+            </a>
+          </div>
+
+          <div class="col-8" id="signUpLog">
+            Log In
+          </div>
+
+          <div class="row col-2" id="submit">
+            <a href="Login.html">
+              <button type="submit" id="button">
+                Submit
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
       <div className="row">
         {animalsInState.map((animal) => {
+          return <></>;
           return (
             <div className="col-4" key={animal.id}>
               <div className="card">
@@ -59,13 +90,6 @@ const Home = () => {
           );
         })}
       </div>
-      {loggedIn ? (
-        //Are they logged in? If yes, show them the Post Editor link.
-        <Link to="/animalEditor">Animal Editor</Link>
-      ) : (
-        //If they aren't logged in, show them link to do so.
-        <Link to="/login">Login</Link>
-      )}
     </div>
   );
 };
