@@ -48,7 +48,7 @@ const AnimalInfo = () => {
         <div className="col-1">
           Apply!
           <input type="submit" id="submit" />
-          <Link to="/application" />
+          {/* <Link to="/application" /> */}
         </div>
       </div>
       <div className="row" id="text">
