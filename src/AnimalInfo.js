@@ -53,7 +53,7 @@ const AnimalInfo = () => {
       </div>
       <div className="row" id="text">
         <div className="col-1">
-          Connect with the Owner Email address of the aboutOwner
+          Connect with the Owner
           <input type="submit" id="submit" />
         </div>
       </div>
