@@ -36,7 +36,7 @@ const Nav = () => {
             <Link className="nav-link" to="/Available">
               Available for Adoption
             </Link>
-            <Link className="nav-link" to="/AnimalInfo">
+            <Link className="nav-link" to="/Post">
               Animal Information
             </Link>
             <Link className="nav-link" to="/Application">

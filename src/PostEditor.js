@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const AnimalEditor = () => {
+const PostEditor = () => {
   // #4 Set up three state variables so we can store what the user types into the form
   const [name, setName] = useState("");
   const [type, setType] = useState("");
@@ -132,4 +132,4 @@ const AnimalEditor = () => {
   );
 };
 
-export default AnimalEditor;
+export default PostEditor;

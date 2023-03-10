@@ -5,8 +5,8 @@ import LogIn from "./LogIn";
 import SignUp from "./SignUp";
 import About from "./About";
 import Available from "./Available";
-import AnimalInfo from "./AnimalInfo";
-import AnimalEditor from "./AnimalEditor";
+import Post from "./Post";
+import PostEditor from "./PostEditor";
 import Application from "./Application";
 import Donation from "./Donation";
 import Contact from "./Contact";
@@ -27,11 +27,11 @@ function App() {
             <Route path="/SignUp" element={<SignUp />} />
             <Route path="/About" element={<About />} />
             <Route path="/Available" element={<Available />} />
-            <Route path="/AnimalInfo" element={<AnimalInfo />} />
+            <Route path="/Post" element={<Post />} />
             <Route path="/Application" element={<Application />} />
             <Route path="/Donation" element={<Donation />} />
             <Route path="/Contact" element={<Contact />} />
-            <Route path="/AnimalEditor" element={<AnimalEditor />} />
+            <Route path="/AnimalEditor" element={<PostEditor />} />
           </Route>
         </Routes>
       </BrowserRouter>

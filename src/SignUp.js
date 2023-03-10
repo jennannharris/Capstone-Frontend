@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const SignUp = ()=> {
     return (
         
-          <div classNameName="row">
+          <div className="row">
 
                 <div className="row">
                     <div className="row" id="text">
@@ -63,14 +63,14 @@ const SignUp = ()=> {
                 <div className="row">
                     <div className="col-3">
                         Password:
-                        <input type="text" id="text" />
+                        <input type="text" id="text"/>
                     </div>
                 </div>
             
                 <div classNameName="row">
                     <div classNameName="Submit text-center" id="submit">
                         <input type="submit" />
-                        <a href="login.html"></a>
+                        {/* <Link to="/LogIn input type="> */}
                     </div>
                 </div>  
             </div>
