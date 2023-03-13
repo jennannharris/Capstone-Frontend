@@ -1,9 +1,7 @@
-import { Link } from "react-router-dom";
-
 const SignUp = ()=> {
     return (
         
-          <div className="row">
+          <div className="row" id="signUp">
 
                 <div className="row">
                     <div className="row" id="text">
@@ -11,8 +9,8 @@ const SignUp = ()=> {
                      </div>
                 </div>
 
-                <div className="row">
-                    <div className>First Name:</div>
+                
+                <div className="col-3">First Name:
                     <input type="text" id="text" />
                 </div>
 
@@ -44,6 +42,7 @@ const SignUp = ()=> {
 
                 <div className="row" id="row">
                     <div className="col-3">Address:</div>
+                <div className="row" id="row"></div>
 
                     <div className="col-3">
                         <input type="text" id="text" placeholder="City" />
@@ -52,9 +51,7 @@ const SignUp = ()=> {
 
                 <div className="col-3">
                     <input type="text" id="text" placeholder="State" />
-                </div>
-
-                <div className="col-2">
+                
                     <input type="text" id="text" placeholder="Zip Code" />
                 </div>
                 

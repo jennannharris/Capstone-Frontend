@@ -8,8 +8,8 @@ const Donation = () => {
           </div>
         </div>
 
-        <div className="row" id="pleaText">
-          <div className="plea" id="pleaCenter">
+        <div className="row" id="donateText">
+          <div className="plea" id="donateCenter">
             Thanks to your care and generosity, Family Finder has been able to
             continue the hard yet rewarding work of rehoming displaced pets.
             Please consider making a donation today. The happiness and wellbeing
@@ -17,6 +17,8 @@ const Donation = () => {
             cup of coffee.
           </div>
         </div>
+        <br></br>
+        <br></br>
 
         <div className="row" id="sadDog">
           <div className="col-4">Help to turn this:</div>
@@ -25,37 +27,32 @@ const Donation = () => {
           </div>
         </div>
         <div className="row" id="text">
-          <div className="col-1">
+          <div className="col-3">
             <a href="paypal.com">PayPal</a>
           </div>
-          <div className="col-2">
-            <input type="submit" />
-          </div>
+          
 
-          <div className="col-1">
+          <div className="col-3">
             <a href="http://applepay.com">ApplePay</a>
           </div>
-          <div className="col-2">
-            <input type="submit" />
-          </div>
+          
 
-          <div className="col-1">
+          <div className="col-3">
             <a href="http://venmo.com">Venmo</a>
           </div>
-          <div className="col-2">
-            <input type="submit" />
-          </div>
+          
 
-          <div className="col-1">
+          <div className="col-3">
             <a href="http://googlepay.com">GooglePay</a>
           </div>
-          <div className="col-2">
-            <input type="submit" />
-          </div>
+          
         </div>
+        
         <div className="row" id="happyDog">
-          <div className="col-4">Into this!</div>
-          <div className="col-4">
+          <div className="col-4">Into this!
+        </div>
+
+        <div className="col-4">
             <img
               src="images/happyDog.avif"
               alt="Happy Dog"

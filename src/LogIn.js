@@ -38,35 +38,35 @@ const Login = () => {
           <div class="row" id="info">
             <div class="col-3" id="text">
               Email:
-              <input type="text" id="text" placeholder="Email Address" />
+              <input
+                  type="email"
+                  className="form-control"
+                  onChange={(evt) => {
+                    // A1: Updates typed in value in state
+                    setEmail(evt.target.value);
+                  }}
+                  value={email}
+                />
             </div>
           </div>
-          <input
-            type="email"
-            className="form-control"
-            onChange={(evt) => {
-              // A1: Updates typed in value in state
-              setEmail(evt.target.value);
-            }}
-            value={email}
-          />
+          
 
-          <div class="row" id="info">
+          <div class="row">
             <div class="col-3" id="text">
               Password:
-              <input type="text" id="text" placeholder="Email Address" />
+              <input
+                type="password"
+                className="form-control"
+                onChange={(evt) => {
+                  setPassword(evt.target.value);
+                }}
+                value={password}
+             />
             </div>
           </div>
-          <input
-            type="password"
-            className="form-control"
-            onChange={(evt) => {
-              setPassword(evt.target.value);
-            }}
-            value={password}
-          />
+          
 
-          <div class="row" id="row">
+          <div class="row">
             <div class="Submit text-center" id="submit">
               <input type="submit" />
               <Link to="/Administrator" input type="email" />

@@ -6,7 +6,7 @@ const Home = () => {
 
   useEffect(() => {
     const checkAuth = async () => {
-      const response = await fetch(`http://localhost:3001/authStatus`, {
+      const response = await fetch(`https://Jencapstone2-env.eba-mpy2qncg.us-east-1.elasticbeanstalk.com/authStatus`, {
         credentials: "include",
       });
       const data = await response.json();
