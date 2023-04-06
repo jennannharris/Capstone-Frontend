@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const About = ()=> {
     return (
         
@@ -20,7 +18,7 @@ const About = ()=> {
                         
                         Many pet parents often find themselves in situations when they are unable
                         to care for thier animals. Maybe someone faces a health challenge and they
-                        can no longer do the physical work of taking are of the pets. 
+                        can no longer do the physical work of taking care of the pets. 
                         Perhaps a person faces some financial difficulties and can’t afford the 
                         pets’ food, medicines or veterinary care. Sadly, a lot of animals get left
                         behind and are sent to shelters where, especially if the animal is a senior,

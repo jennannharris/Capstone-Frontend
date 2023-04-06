@@ -79,21 +79,7 @@ const Application = () => {
         </div>
       </div>
 
-      <div class="row" id="info">
-        <div class="col-2" id="text">
-          Are there children in the home?
-        </div>
-        <div class="col-8" id="text">
-          Yes
-          <input type="checkbox" />
-          No
-          <input type="checkbox" />
-          If so, how many?
-          <input type="text" />
-          What ages?
-          <input type="text" />
-        </div>
-      </div>
+    
       <div class="row" id="info">
         <div class="col-6" id="text">
           What is the dwelling type?
